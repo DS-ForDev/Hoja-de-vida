@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#documento {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+    font-size: 30px;
+}
+
+h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.section {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.section1 {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.habilidades, .idiomas, .intereses {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0;
+    
+}
+
+.experiencia {
+    list-style-type: none;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#perfilcontacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#perfil {
+    border-radius: 50px;
+    margin-right: 150px; 
+    border: 2px solid;
+    border-color:#007BFF;
+}
+
+#informacion {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 2.0;
+}
+
+li{
+    list-style-type: none;
+}
